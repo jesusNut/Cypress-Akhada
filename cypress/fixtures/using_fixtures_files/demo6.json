@@ -1,0 +1,19 @@
+[
+    {
+        "scenario":"valid login",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "validation_element_text": "Products"
+      },
+      {
+        "scenario":"locked out user login",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "validation_element_text": "locked out."
+      },{
+        "scenario":"wrong password login",
+        "username": "standard_user",
+        "password": "*^%^%",
+        "validation_element_text": " Username and password do not match any user in this service"
+      }
+]

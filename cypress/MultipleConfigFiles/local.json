@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://www.webdriveruniversity.com",
+  "env": {
+    "first_name": "Rushme",
+    "last_name": "Sleepercell",
+    "email": "Rushme.sleepercell@googl.com",
+    "comment": "I am printing from local environment"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "firstname": "ahmed",
+    "lastname": "patel",
+    "email": "ahmed.patel@ghata.com",
+    "comments": "Humse ka bhool hui "
+  },
+  {
+    "firstname": "shiraj",
+    "lastname": "prabhakar",
+    "email": "shiraj.prabhakar@ghata.com",
+    "comments": "Hume tumse pyar kitna"
+  },
+  {
+    "firstname": "madan",
+    "lastname": "mohan",
+    "email": "madan.mohan@ghata.com",
+    "comments": "Are dewano..mujhe pehchano"
+  }
+]

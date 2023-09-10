@@ -1,0 +1,9 @@
+{
+  "baseUrl": "http://www.webdriveruniversity.com",
+  "env": {
+    "first_name": "mohanti",
+    "last_name": "jayati",
+    "email": "mohanti.jayati@googl.com",
+    "comment": "I am printing from stage environment"
+  }
+}

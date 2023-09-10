@@ -1,0 +1,5 @@
+{
+    "standardUser": "standard_user",
+    "standardPwd": "secret_sauce",
+    "lockedUser":"locked_out_user"
+  }
