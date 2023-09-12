@@ -10,7 +10,7 @@ describe('Conduit app - landing page tests', () => {
     });
 
     it('Validate Landing page title', () => {
-        landingPage.validateLandingPageTitle('Conduit');
+        landingPage.validateLandingPageTitle('Conduitt');
     });
 
     it('Validate header text of landing page', () => {

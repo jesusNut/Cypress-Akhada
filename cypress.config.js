@@ -126,7 +126,8 @@ module.exports = defineConfig({
     //   "openMode": 2
     // },
     testIsolation: true,
-    baseUrl: 'https://react-redux.realworld.io' //framework url
+    baseUrl: 'https://react-redux.realworld.io', //framework url
+    //video: true  //set video during 'cypress run'
 
   },
 

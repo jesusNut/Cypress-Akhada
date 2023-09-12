@@ -7,6 +7,17 @@
       cy.task(event, arg, options)
  *================================================================================================**/
 
+/**================================================================================================
+ ** In general the pre-processor bundles the cypress JS code and executes it inside the browser 
+//* in the same context as that of the AUT. The cypress tests (JS) are then executed by the 
+//* browser in the JS engine embbeded in the browser. BUT these browser JS engines do not have 
+//* APIs to handle file reading, databases etc. For that, the JS engine needed is NODE JS.
+//* SO, cypress has this concept of task.These tasks are defined in cypress.config.js and then
+//* these tasks are accessed in tests as - cy.task('taskName'). Once the cypress sees that some 
+//* task/event is passed inside the cy.task(), that task or event is then executed on NODE JS and 
+//* not on default browser JS engine.
+ *================================================================================================**/
+
 //? https://www.youtube.com/watch?v=BhWaarUEvck&t=19s
 //? https://docs.cypress.io/api/commands/task  
 

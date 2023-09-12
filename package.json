@@ -11,7 +11,7 @@
     "runFWSuiteNeat": "cypress run --browser electron --spec cypress/e2e/conduit_POM_tests --headed",
     "runFWSuiteInElectron": "cypress run --browser electron --spec cypress/e2e/conduit_POM_tests --headed",
     "runFWSuiteCrossBrowser": "npm run runFWSuiteNeat -- --browser electron --headed & npm run runFWSuiteNeat -- --browser edge --headed & npm run runFWSuiteNeat -- --browser chrome --headed",
-    "runFWDashBoard": "npx cypress run --record --key f9da79a6-a4c8-8uy2-9be7-58188969fc1b --browser electron --spec cypress/e2e/conduit_POM_tests"
+    "runFWDashBoard": "npx cypress run --record --key f9da79a6-a4c8-4ded-9be7-58188969fc1b --browser electron --spec cypress/e2e/conduit_POM_tests"
   },
   "keywords": [
     "cypress",
@@ -24,7 +24,7 @@
     "@4tw/cypress-drag-drop": "^2.2.4",
     "@faker-js/faker": "^8.0.2",
     "cy-verify-downloads": "^0.1.15",
-    "cypress": "^12.17.3",
+    "cypress": "^13.1.0",
     "cypress-downloadfile": "^1.2.3",
     "cypress-file-upload": "^5.0.8",
     "cypress-mochawesome-reporter": "^3.5.1",
